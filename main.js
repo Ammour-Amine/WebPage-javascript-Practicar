@@ -122,5 +122,9 @@ document.addEventListener("scroll", ()=>{
     }else document.querySelector(".scroll").style.removeProperty("display");
 });
 
+document.querySelector(".scroll").addEventListener("click",()=>{
+    window.scrollTo(top);
+});
+
 
 
