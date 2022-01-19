@@ -143,3 +143,22 @@ section {
     cursor: pointer;
 }
 
+/*Dark mode button*/
+
+.dark-mode{
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    border-style: none;
+    text-align: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+}
+
+.dark{
+    background-color: var(--second-color);
+    color: white;
+}

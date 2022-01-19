@@ -126,5 +126,14 @@ document.querySelector(".scroll").addEventListener("click",()=>{
     window.scrollTo(top);
 });
 
+//Dark mode button.
+
+let btDark = document.querySelector(".dark-mode");
+btDark.addEventListener("click",()=>{
+    document.querySelector("body").classList.toggle("dark");
+    document.querySelector(".dark-mode i").classList.toggle("fa-sun");
+    document.querySelector(".dark-mode i").classList.toggle("fa-moon");
+});
+
 
 
